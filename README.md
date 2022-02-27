@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+![image](https://user-images.githubusercontent.com/64267602/155876881-96eb07c3-ea1f-4110-a199-47136a1bd45e.png)
+
+# Country Finder
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
