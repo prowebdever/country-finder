@@ -24,7 +24,8 @@ function* saga() {
             let data = yield take(channel)
             yield put(getCountryList(data));
         }
-    } finally {
+    } catch(err){
+        
     }
 }
 
