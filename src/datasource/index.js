@@ -9,8 +9,6 @@ export const fetchCountryData = async (alphabetIndex) => {
         response.data.forEach((data) => {
             if (data.name.at(0) === curAlphabet.at(0)) countries.push(data);
         })
-        
-        console.log("countries=", countries);
         return { countries, alphabet: alphabetIndex % 26 };
     });
 }
